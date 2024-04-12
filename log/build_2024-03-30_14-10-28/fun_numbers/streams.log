@@ -1,0 +1,25 @@
+[0.027s] Invoking command in '/home/thien/Documents/IE_ROS/Project_6/build/fun_numbers': CMAKE_PREFIX_PATH=/home/thien/Documents/IE_ROS/Project_6/install/number_actions:/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers:/opt/ros/humble /usr/bin/cmake --build /home/thien/Documents/IE_ROS/Project_6/build/fun_numbers -- -j8 -l8
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target fibonacci_server[0m
+[0.167s] [ 50%] Built target fibonacci_client
+[0.195s] [ 75%] [32mBuilding CXX object CMakeFiles/fibonacci_server.dir/src/fibonacci_server.cpp.o[0m
+[5.827s] [01m[K/home/thien/Documents/IE_ROS/Project_6/src/fun_numbers/src/fibonacci_server.cpp:[m[K In lambda function:
+[5.827s] [01m[K/home/thien/Documents/IE_ROS/Project_6/src/fun_numbers/src/fibonacci_server.cpp:18:103:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[5.827s]    18 |         [this](const auto goal_handle) -> rclcpp_action::GoalResponse { handle_accepted(goal_handle); [01;35m[K}[m[K
+[5.827s]       |                                                                                                       [01;35m[K^[m[K
+[5.827s] [01m[K/home/thien/Documents/IE_ROS/Project_6/src/fun_numbers/src/fibonacci_server.cpp:[m[K In constructor ‘[01m[KFibonacciServer::FibonacciServer(const rclcpp::NodeOptions&)[m[K’:
+[5.828s] [01m[K/home/thien/Documents/IE_ROS/Project_6/src/fun_numbers/src/fibonacci_server.cpp:19:9:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KFibonacciServer::FibonacciServer(const rclcpp::NodeOptions&)::<lambda(auto:40)>[m[K’ and ‘[01m[KFibonacciServer*[m[K’)
+[5.828s]    19 |         [01;31m[K[[m[Kthis](const auto uuid, const auto goal) -> rclcpp_action::GoalResponse { return handle_goal(uuid, goal); }
+[5.828s]       |         [01;31m[K^[m[K
+[5.828s] [01m[K/home/thien/Documents/IE_ROS/Project_6/src/fun_numbers/src/fibonacci_server.cpp:19:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[5.828s]    19 |         [this]([01;31m[Kconst[m[K auto uuid, const auto goal) -> rclcpp_action::GoalResponse { return handle_goal(uuid, goal); }
+[5.828s]       |                [01;31m[K^~~~~[m[K
+[5.828s] [01m[K/home/thien/Documents/IE_ROS/Project_6/src/fun_numbers/src/fibonacci_server.cpp:19:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[5.828s]    19 |         [this](const auto uuid, [01;31m[Kconst[m[K auto goal) -> rclcpp_action::GoalResponse { return handle_goal(uuid, goal); }
+[5.829s]       |                                 [01;31m[K^~~~~[m[K
+[5.829s] [01m[K/home/thien/Documents/IE_ROS/Project_6/src/fun_numbers/src/fibonacci_server.cpp:19:53:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::GoalResponse[m[K’ is not a class member
+[5.829s]    19 |         [this](const auto uuid, const auto goal) -> [01;31m[Krclcpp_action[m[K::GoalResponse { return handle_goal(uuid, goal); }
+[5.829s]       |                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[6.932s] gmake[2]: *** [CMakeFiles/fibonacci_server.dir/build.make:76: CMakeFiles/fibonacci_server.dir/src/fibonacci_server.cpp.o] Error 1
+[6.933s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fibonacci_server.dir/all] Error 2
+[6.933s] gmake: *** [Makefile:146: all] Error 2
+[6.938s] Invoked command in '/home/thien/Documents/IE_ROS/Project_6/build/fun_numbers' returned '2': CMAKE_PREFIX_PATH=/home/thien/Documents/IE_ROS/Project_6/install/number_actions:/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers:/opt/ros/humble /usr/bin/cmake --build /home/thien/Documents/IE_ROS/Project_6/build/fun_numbers -- -j8 -l8

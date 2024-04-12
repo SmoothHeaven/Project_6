@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target fibonacci_client[0m
+[35m[1mConsolidate compiler generated dependencies of target fibonacci_server[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_server.dir/src/fibonacci_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable fibonacci_client[0m
+[100%] [32m[1mLinking CXX executable fibonacci_server[0m
+[100%] Built target fibonacci_client
+[100%] Built target fibonacci_server
+-- Install configuration: ""
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/lib/fun_numbers/fibonacci_server
+-- Set runtime path of "/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/lib/fun_numbers/fibonacci_server" to ""
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/lib/fun_numbers/fibonacci_client
+-- Set runtime path of "/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/lib/fun_numbers/fibonacci_client" to ""
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers//launch
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers//launch/action_test.py
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/ament_index/resource_index/package_run_dependencies/fun_numbers
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/ament_index/resource_index/parent_prefix_path/fun_numbers
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/environment/ament_prefix_path.sh
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/environment/ament_prefix_path.dsv
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/environment/path.sh
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/environment/path.dsv
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/local_setup.bash
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/local_setup.sh
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/local_setup.zsh
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/local_setup.dsv
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/package.dsv
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/ament_index/resource_index/packages/fun_numbers
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/cmake/fun_numbersConfig.cmake
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/cmake/fun_numbersConfig-version.cmake
+-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/package.xml

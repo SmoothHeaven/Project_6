@@ -1,0 +1,219 @@
+[0.000000] (-) TimerEvent: {}
+[0.000889] (number_actions) JobQueued: {'identifier': 'number_actions', 'dependencies': OrderedDict()}
+[0.001514] (fun_numbers) JobQueued: {'identifier': 'fun_numbers', 'dependencies': OrderedDict([('number_actions', '/home/thien/Documents/IE_ROS/Project_6/install/number_actions')])}
+[0.001790] (number_actions) JobStarted: {'identifier': 'number_actions'}
+[0.022043] (number_actions) JobProgress: {'identifier': 'number_actions', 'progress': 'cmake'}
+[0.023512] (number_actions) JobProgress: {'identifier': 'number_actions', 'progress': 'build'}
+[0.024766] (number_actions) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thien/Documents/IE_ROS/Project_6/build/number_actions', '--', '-j8', '-l8'], 'cwd': '/home/thien/Documents/IE_ROS/Project_6/build/number_actions', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thien'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thien/Documents/IE_ROS/Project_6/install/number_actions/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thien'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/thien/Documents/IE_ROS/Project_6/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1105'), ('SYSTEMD_EXEC_PID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4164'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/thien/Documents/IE_ROS/Project_6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thien'), ('JOURNAL_STREAM', '8:34673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'thien'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/thien/.local/bin:/opt/ros/humble/bin:/home/thien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/TestBench:@/tmp/.ICE-unix/1766,unix/TestBench:/tmp/.ICE-unix/1766'), ('INVOCATION_ID', '14fd8143910c4811abc91a048162acf6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8a0c131f41.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers:/home/thien/Documents/IE_ROS/Project_6/install/number_actions:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thien/Documents/IE_ROS/Project_6/build/number_actions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers:/home/thien/Documents/IE_ROS/Project_6/install/number_actions:/opt/ros/humble')]), 'shell': False}
+[0.098957] (-) TimerEvent: {}
+[0.158779] (number_actions) StdoutLine: {'line': b'[  4%] Built target number_actions__cpp\n'}
+[0.159360] (number_actions) StdoutLine: {'line': b'[ 18%] Built target number_actions__rosidl_generator_c\n'}
+[0.199193] (-) TimerEvent: {}
+[0.214975] (number_actions) StdoutLine: {'line': b'[ 50%] Built target number_actions__rosidl_typesupport_introspection_c\n'}
+[0.215824] (number_actions) StdoutLine: {'line': b'[ 50%] Built target number_actions__rosidl_typesupport_fastrtps_cpp\n'}
+[0.217217] (number_actions) StdoutLine: {'line': b'[ 72%] Built target number_actions__rosidl_typesupport_c\n'}
+[0.217805] (number_actions) StdoutLine: {'line': b'[ 72%] Built target number_actions__rosidl_typesupport_cpp\n'}
+[0.235340] (number_actions) StdoutLine: {'line': b'[ 86%] Built target number_actions__rosidl_typesupport_introspection_cpp\n'}
+[0.279256] (number_actions) StdoutLine: {'line': b'[100%] Built target number_actions__rosidl_typesupport_fastrtps_c\n'}
+[0.299398] (-) TimerEvent: {}
+[0.331004] (number_actions) StdoutLine: {'line': b'[100%] Built target number_actions\n'}
+[0.362401] (number_actions) CommandEnded: {'returncode': 0}
+[0.399536] (-) TimerEvent: {}
+[0.486814] (number_actions) JobProgress: {'identifier': 'number_actions', 'progress': 'install'}
+[0.499699] (-) TimerEvent: {}
+[0.506413] (number_actions) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thien/Documents/IE_ROS/Project_6/build/number_actions'], 'cwd': '/home/thien/Documents/IE_ROS/Project_6/build/number_actions', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thien'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thien/Documents/IE_ROS/Project_6/install/number_actions/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thien'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/thien/Documents/IE_ROS/Project_6/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1105'), ('SYSTEMD_EXEC_PID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4164'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/thien/Documents/IE_ROS/Project_6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thien'), ('JOURNAL_STREAM', '8:34673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'thien'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/thien/.local/bin:/opt/ros/humble/bin:/home/thien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/TestBench:@/tmp/.ICE-unix/1766,unix/TestBench:/tmp/.ICE-unix/1766'), ('INVOCATION_ID', '14fd8143910c4811abc91a048162acf6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8a0c131f41.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers:/home/thien/Documents/IE_ROS/Project_6/install/number_actions:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thien/Documents/IE_ROS/Project_6/build/number_actions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers:/home/thien/Documents/IE_ROS/Project_6/install/number_actions:/opt/ros/humble')]), 'shell': False}
+[0.526402] (number_actions) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.527167] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/ament_index/resource_index/rosidl_interfaces/number_actions\n'}
+[0.527515] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions\n'}
+[0.527871] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/msg\n'}
+[0.528066] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.528223] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action\n'}
+[0.528514] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/fibonacci.h\n'}
+[0.528857] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail\n'}
+[0.529006] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__type_support.h\n'}
+[0.529135] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__functions.c\n'}
+[0.529349] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__struct.h\n'}
+[0.529553] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__functions.h\n'}
+[0.529768] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/environment/library_path.sh\n'}
+[0.530344] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/environment/library_path.dsv\n'}
+[0.530833] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/lib/libnumber_actions__rosidl_generator_c.so\n'}
+[0.531273] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions\n'}
+[0.531549] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/msg\n'}
+[0.531965] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.532218] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action\n'}
+[0.532354] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail\n'}
+[0.532551] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[0.532992] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/lib/libnumber_actions__rosidl_typesupport_fastrtps_c.so\n'}
+[0.533217] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions\n'}
+[0.533552] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action\n'}
+[0.533756] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/fibonacci.hpp\n'}
+[0.534370] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail\n'}
+[0.534604] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__traits.hpp\n'}
+[0.534857] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__struct.hpp\n'}
+[0.535111] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__builder.hpp\n'}
+[0.535587] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions\n'}
+[0.535796] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/msg\n'}
+[0.535928] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.536100] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action\n'}
+[0.536250] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail\n'}
+[0.536413] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/dds_fastrtps\n'}
+[0.536557] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.536687] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/lib/libnumber_actions__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.536949] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions\n'}
+[0.537149] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/msg\n'}
+[0.537553] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.537713] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action\n'}
+[0.537907] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail\n'}
+[0.538123] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__type_support.c\n'}
+[0.538316] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[0.538482] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/lib/libnumber_actions__rosidl_typesupport_introspection_c.so\n'}
+[0.538638] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/lib/libnumber_actions__rosidl_typesupport_c.so\n'}
+[0.538761] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions\n'}
+[0.538884] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action\n'}
+[0.539019] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail\n'}
+[0.539201] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.539336] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/include/number_actions/number_actions/action/detail/fibonacci__type_support.cpp\n'}
+[0.539520] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/lib/libnumber_actions__rosidl_typesupport_introspection_cpp.so\n'}
+[0.539650] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/lib/libnumber_actions__rosidl_typesupport_cpp.so\n'}
+[0.539814] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/action/Fibonacci.idl\n'}
+[0.539972] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/action/Fibonacci.action\n'}
+[0.540127] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/ament_index/resource_index/package_run_dependencies/number_actions\n'}
+[0.540283] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/ament_index/resource_index/parent_prefix_path/number_actions\n'}
+[0.540471] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/environment/ament_prefix_path.sh\n'}
+[0.540656] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/environment/ament_prefix_path.dsv\n'}
+[0.540788] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/environment/path.sh\n'}
+[0.540978] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/environment/path.dsv\n'}
+[0.541107] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/local_setup.bash\n'}
+[0.541261] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/local_setup.sh\n'}
+[0.541471] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/local_setup.zsh\n'}
+[0.541635] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/local_setup.dsv\n'}
+[0.541901] (number_actions) StdoutLine: {'line': b'-- Installing: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/package.dsv\n'}
+[0.542121] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/ament_index/resource_index/packages/number_actions\n'}
+[0.542358] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/export_number_actions__rosidl_generator_cExport.cmake\n'}
+[0.542595] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/export_number_actions__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.542741] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/export_number_actions__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.542897] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/export_number_actions__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.543038] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/export_number_actions__rosidl_generator_cppExport.cmake\n'}
+[0.543162] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/export_number_actions__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.543285] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/export_number_actions__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.543407] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/number_actions__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.543531] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/number_actions__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.543678] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/number_actions__rosidl_typesupport_cExport.cmake\n'}
+[0.543802] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/number_actions__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.543924] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/number_actions__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.544044] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/number_actions__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.544165] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/number_actions__rosidl_typesupport_cppExport.cmake\n'}
+[0.544283] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/number_actions__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.544402] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/rosidl_cmake-extras.cmake\n'}
+[0.544550] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.544671] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.544818] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.544955] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.545124] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.545246] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.545402] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/number_actionsConfig.cmake\n'}
+[0.545530] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/cmake/number_actionsConfig-version.cmake\n'}
+[0.545650] (number_actions) StdoutLine: {'line': b'-- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/number_actions/share/number_actions/package.xml\n'}
+[0.547684] (number_actions) CommandEnded: {'returncode': 0}
+[0.599810] (-) TimerEvent: {}
+[0.700301] (-) TimerEvent: {}
+[0.713728] (number_actions) JobEnded: {'identifier': 'number_actions', 'rc': 0}
+[0.716770] (fun_numbers) JobStarted: {'identifier': 'fun_numbers'}
+[0.737488] (fun_numbers) JobProgress: {'identifier': 'fun_numbers', 'progress': 'cmake'}
+[0.738905] (fun_numbers) JobProgress: {'identifier': 'fun_numbers', 'progress': 'build'}
+[0.739386] (fun_numbers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thien/Documents/IE_ROS/Project_6/build/fun_numbers', '--', '-j8', '-l8'], 'cwd': '/home/thien/Documents/IE_ROS/Project_6/build/fun_numbers', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thien'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thien/Documents/IE_ROS/Project_6/install/number_actions/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thien'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/thien/Documents/IE_ROS/Project_6/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1105'), ('SYSTEMD_EXEC_PID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4164'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/thien/Documents/IE_ROS/Project_6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thien'), ('JOURNAL_STREAM', '8:34673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'thien'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/thien/.local/bin:/opt/ros/humble/bin:/home/thien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/TestBench:@/tmp/.ICE-unix/1766,unix/TestBench:/tmp/.ICE-unix/1766'), ('INVOCATION_ID', '14fd8143910c4811abc91a048162acf6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8a0c131f41.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers:/home/thien/Documents/IE_ROS/Project_6/install/number_actions:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thien/Documents/IE_ROS/Project_6/build/fun_numbers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/thien/Documents/IE_ROS/Project_6/install/number_actions:/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers:/opt/ros/humble')]), 'shell': False}
+[0.800508] (-) TimerEvent: {}
+[0.873887] (fun_numbers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fibonacci_server\x1b[0m\n'}
+[0.901514] (-) TimerEvent: {}
+[0.963968] (fun_numbers) StdoutLine: {'line': b'[ 50%] Built target fibonacci_client\n'}
+[0.980733] (fun_numbers) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/fibonacci_server.dir/src/fibonacci_server.cpp.o\x1b[0m\n'}
+[1.002079] (-) TimerEvent: {}
+[1.103488] (-) TimerEvent: {}
+[1.204295] (-) TimerEvent: {}
+[1.305106] (-) TimerEvent: {}
+[1.405783] (-) TimerEvent: {}
+[1.506575] (-) TimerEvent: {}
+[1.607311] (-) TimerEvent: {}
+[1.708054] (-) TimerEvent: {}
+[1.808789] (-) TimerEvent: {}
+[1.909448] (-) TimerEvent: {}
+[2.010137] (-) TimerEvent: {}
+[2.110750] (-) TimerEvent: {}
+[2.211352] (-) TimerEvent: {}
+[2.312078] (-) TimerEvent: {}
+[2.412662] (-) TimerEvent: {}
+[2.513497] (-) TimerEvent: {}
+[2.614497] (-) TimerEvent: {}
+[2.715524] (-) TimerEvent: {}
+[2.816383] (-) TimerEvent: {}
+[2.917170] (-) TimerEvent: {}
+[3.018090] (-) TimerEvent: {}
+[3.119030] (-) TimerEvent: {}
+[3.220184] (-) TimerEvent: {}
+[3.320949] (-) TimerEvent: {}
+[3.421709] (-) TimerEvent: {}
+[3.522379] (-) TimerEvent: {}
+[3.622983] (-) TimerEvent: {}
+[3.723700] (-) TimerEvent: {}
+[3.824392] (-) TimerEvent: {}
+[3.925106] (-) TimerEvent: {}
+[4.025959] (-) TimerEvent: {}
+[4.126574] (-) TimerEvent: {}
+[4.227222] (-) TimerEvent: {}
+[4.327945] (-) TimerEvent: {}
+[4.428903] (-) TimerEvent: {}
+[4.529758] (-) TimerEvent: {}
+[4.630442] (-) TimerEvent: {}
+[4.731110] (-) TimerEvent: {}
+[4.831963] (-) TimerEvent: {}
+[4.932881] (-) TimerEvent: {}
+[5.033877] (-) TimerEvent: {}
+[5.134898] (-) TimerEvent: {}
+[5.235636] (-) TimerEvent: {}
+[5.336362] (-) TimerEvent: {}
+[5.437467] (-) TimerEvent: {}
+[5.538871] (-) TimerEvent: {}
+[5.639747] (-) TimerEvent: {}
+[5.740540] (-) TimerEvent: {}
+[5.841228] (-) TimerEvent: {}
+[5.941883] (-) TimerEvent: {}
+[6.042638] (-) TimerEvent: {}
+[6.143610] (-) TimerEvent: {}
+[6.244357] (-) TimerEvent: {}
+[6.345135] (-) TimerEvent: {}
+[6.445969] (-) TimerEvent: {}
+[6.546743] (-) TimerEvent: {}
+[6.647469] (-) TimerEvent: {}
+[6.748149] (-) TimerEvent: {}
+[6.848824] (-) TimerEvent: {}
+[6.856009] (fun_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thien/Documents/IE_ROS/Project_6/src/fun_numbers/src/fibonacci_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KFibonacciServer::FibonacciServer(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.856737] (fun_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thien/Documents/IE_ROS/Project_6/src/fun_numbers/src/fibonacci_server.cpp:23:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KFibonacciServer::FibonacciServer(const rclcpp::NodeOptions&)::<lambda(auto:40)>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KFibonacciServer*\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[6.857041] (fun_numbers) StderrLine: {'line': b'   23 |         \x1b[01;31m\x1b[K[\x1b[m\x1b[Kthis](const auto& uuid, const auto& goal) -> rclcpp_action::GoalResponse {\n'}
+[6.857286] (fun_numbers) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.857598] (fun_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thien/Documents/IE_ROS/Project_6/src/fun_numbers/src/fibonacci_server.cpp:23:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.857846] (fun_numbers) StderrLine: {'line': b'   23 |         [this](\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K auto& uuid, const auto& goal) -> rclcpp_action::GoalResponse {\n'}
+[6.858081] (fun_numbers) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.858315] (fun_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thien/Documents/IE_ROS/Project_6/src/fun_numbers/src/fibonacci_server.cpp:23:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.858554] (fun_numbers) StderrLine: {'line': b'   23 |         [this](const auto& uuid, \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K auto& goal) -> rclcpp_action::GoalResponse {\n'}
+[6.858794] (fun_numbers) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.859146] (fun_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thien/Documents/IE_ROS/Project_6/src/fun_numbers/src/fibonacci_server.cpp:23:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse\x1b[m\x1b[K\xe2\x80\x99 is not a class member\n'}
+[6.859653] (fun_numbers) StderrLine: {'line': b'   23 |         [this](const auto& uuid, const auto& goal) -> \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::GoalResponse {\n'}
+[6.859991] (fun_numbers) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.949054] (-) TimerEvent: {}
+[7.049756] (-) TimerEvent: {}
+[7.150400] (-) TimerEvent: {}
+[7.250980] (-) TimerEvent: {}
+[7.351678] (-) TimerEvent: {}
+[7.452400] (-) TimerEvent: {}
+[7.553091] (-) TimerEvent: {}
+[7.653810] (-) TimerEvent: {}
+[7.754412] (-) TimerEvent: {}
+[7.855030] (-) TimerEvent: {}
+[7.955577] (-) TimerEvent: {}
+[7.996228] (fun_numbers) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/fibonacci_server.dir/build.make:76: CMakeFiles/fibonacci_server.dir/src/fibonacci_server.cpp.o] Error 1\n'}
+[7.996714] (fun_numbers) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fibonacci_server.dir/all] Error 2\n'}
+[7.997266] (fun_numbers) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.002517] (fun_numbers) CommandEnded: {'returncode': 2}
+[8.055713] (-) TimerEvent: {}
+[8.108875] (fun_numbers) JobEnded: {'identifier': 'fun_numbers', 'rc': 2}
+[8.120512] (-) EventReactorShutdown: {}

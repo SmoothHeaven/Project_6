@@ -1,0 +1,27 @@
+[0.020s] Invoking command in '/home/thien/Documents/IE_ROS/Project_6/build/fun_numbers': CMAKE_PREFIX_PATH=/home/thien/Documents/IE_ROS/Project_6/install/number_actions:/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers:/opt/ros/humble /usr/bin/cmake --build /home/thien/Documents/IE_ROS/Project_6/build/fun_numbers -- -j8 -l8
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target fibonacci_server[0m
+[0.118s] [ 50%] Built target fibonacci_client
+[0.140s] [100%] Built target fibonacci_server
+[0.163s] Invoked command in '/home/thien/Documents/IE_ROS/Project_6/build/fun_numbers' returned '0': CMAKE_PREFIX_PATH=/home/thien/Documents/IE_ROS/Project_6/install/number_actions:/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers:/opt/ros/humble /usr/bin/cmake --build /home/thien/Documents/IE_ROS/Project_6/build/fun_numbers -- -j8 -l8
+[0.215s] Invoking command in '/home/thien/Documents/IE_ROS/Project_6/build/fun_numbers': CMAKE_PREFIX_PATH=/home/thien/Documents/IE_ROS/Project_6/install/number_actions:/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers:/opt/ros/humble /usr/bin/cmake --install /home/thien/Documents/IE_ROS/Project_6/build/fun_numbers
+[0.232s] -- Install configuration: ""
+[0.232s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/lib/fun_numbers/fibonacci_server
+[0.233s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/lib/fun_numbers/fibonacci_client
+[0.233s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers//launch
+[0.233s] -- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers//launch/action_test.launch.py
+[0.233s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/ament_index/resource_index/package_run_dependencies/fun_numbers
+[0.234s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/ament_index/resource_index/parent_prefix_path/fun_numbers
+[0.234s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/environment/ament_prefix_path.sh
+[0.234s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/environment/ament_prefix_path.dsv
+[0.234s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/environment/path.sh
+[0.235s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/environment/path.dsv
+[0.235s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/local_setup.bash
+[0.235s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/local_setup.sh
+[0.235s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/local_setup.zsh
+[0.235s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/local_setup.dsv
+[0.236s] -- Installing: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/package.dsv
+[0.236s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/ament_index/resource_index/packages/fun_numbers
+[0.236s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/cmake/fun_numbersConfig.cmake
+[0.236s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/cmake/fun_numbersConfig-version.cmake
+[0.236s] -- Up-to-date: /home/thien/Documents/IE_ROS/Project_6/install/fun_numbers/share/fun_numbers/package.xml
+[0.240s] Invoked command in '/home/thien/Documents/IE_ROS/Project_6/build/fun_numbers' returned '0': CMAKE_PREFIX_PATH=/home/thien/Documents/IE_ROS/Project_6/install/number_actions:/home/thien/Documents/IE_ROS/Project_6/install/fun_numbers:/opt/ros/humble /usr/bin/cmake --install /home/thien/Documents/IE_ROS/Project_6/build/fun_numbers
